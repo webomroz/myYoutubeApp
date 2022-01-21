@@ -17,7 +17,7 @@ const App = () => {
 
     useEffect(() => {
 
-        setSelectedItem(items[2]);
+        setSelectedItem(items[1]);
     }, [items]);
 
 
