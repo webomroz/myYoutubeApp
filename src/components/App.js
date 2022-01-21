@@ -13,7 +13,7 @@ import useVideos from "../hooks/useVideos";
 const App = () => {
 
     const [selectedItem, setSelectedItem] = useState(null);
-    const [items, search] = useVideos("Clash of Clans 2022");// custom Hook
+    const [items, search] = useVideos("BROADL");// custom Hook
 
     useEffect(() => {
 

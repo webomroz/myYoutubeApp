@@ -9,6 +9,7 @@ const useVideos = (defaultSearchTerm) => {
         const res = await youtube.get("/search", {
             params: {
                 q: term,
+                maxResults: 10,
 
             }
         });
